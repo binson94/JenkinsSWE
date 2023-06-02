@@ -58,7 +58,7 @@ public class SeleniumDemo {
         driver.manage().window().setSize(new Dimension(974, 1032));
         driver.findElement(By.id("APjFqb")).click();
         driver.findElement(By.id("APjFqb")).sendKeys("google translate");
-        Thread.sleep(1000);
+        Thread.sleep(1001);
         driver.findElement(By.cssSelector("#jZ2SBf > .wM6W7d > span")).click();
         Thread.sleep(1000);
         driver.findElement(By.id("tw-source-text-ta")).click();
