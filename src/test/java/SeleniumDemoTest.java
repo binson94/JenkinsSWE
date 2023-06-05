@@ -28,7 +28,8 @@ public class SeleniumDemoTest {
     }
     @After
     public void tearDown() {
-        driver.quit();
+        if(driver != null)
+            driver.quit();
     }
     public String waitForWindow(int timeout) {
         try {
