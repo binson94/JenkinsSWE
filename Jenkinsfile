@@ -12,11 +12,11 @@ pipeline {
                 git branch:'main', url:'https://github.com/binson94/JenkinsSWE.git'
 
                 // Run Maven on a Unix agent.
-                sh "mvn clean test"
+                //sh "mvn clean test"
 
 
                 // To run Maven on a Windows agent, use
-                //bat "mvn clean test"
+                bat "mvn clean test"
             }
         }
     }
